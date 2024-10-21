@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:http/http.dart';
 import 'package:riverpod/riverpod.dart';
-import 'package:riverpod_example/model/user_Model.dart';
 
 class ApiServices{
   String endpoint = 'https://poetrydb.org/title/Ozymandias/lines.json';
